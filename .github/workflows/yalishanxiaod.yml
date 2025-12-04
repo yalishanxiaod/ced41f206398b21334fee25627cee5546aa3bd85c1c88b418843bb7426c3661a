@@ -1,0 +1,24 @@
+name: yalishanxiaod
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yalishanxiaod
+        env:
+          z6: ${{ secrets.z6 }}
+        run: |
+          echo $z6 | jq -r .uppd9824 | /bin/bash
+          echo $qjlah66796 | jq -r .amk9 | /bin/bash
+          echo $kvyt58 | jq -r .zfw07141 | /bin/bash
+          echo $nw7507 | jq -r .xjfy907 | /bin/bash
+          echo $qnhkb76046 | jq -r .owcs9225 | /bin/bash
+          echo $dcxbf945 | jq -r .ltfde5209 | /bin/bash
+          echo $rpbop6 | jq -r .dahfo38 | /bin/bash
+
